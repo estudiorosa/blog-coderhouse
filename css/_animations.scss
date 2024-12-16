@@ -1,0 +1,14 @@
+@keyframes card-hover-grow {
+    to {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes nav-hover-light {
+    from {
+      background: none;
+    }
+    to {
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 80%);
+    }
+  }
